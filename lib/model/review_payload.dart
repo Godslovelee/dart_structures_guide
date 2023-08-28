@@ -11,6 +11,7 @@ class HouseModel{
   factory HouseModel.fromJson(Map<String, dynamic> data){
     final curtains = data["curtains"];
     final windows = data["windows"];
+    final floor = data["floor"];
 
 
 
