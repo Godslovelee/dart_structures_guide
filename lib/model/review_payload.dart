@@ -8,8 +8,9 @@ class HouseModel{
 
   HouseModel(this.curtains, this.windows, this.floor);
 
+  factory HouseModel.fromJson(Map<String, dynamic>){
 
-
+  }
 
 
 }
