@@ -6,14 +6,14 @@ class HouseModel{
   final String windows;
   final String? floor;
 
-  HouseModel(this.curtains, this.windows, this.floor);
+  HouseModel(required this.curtains, this.windows, this.floor);
 
   factory HouseModel.fromJson(Map<String, dynamic> data){
     final curtains = data["curtains"];
     final windows = data["windows"];
     final floor = data["floor"];
 
-    return HouseModel(curtains, windows, floor);
+    return HouseModel(curtains: curtains, windows, floor);
 
 
 
