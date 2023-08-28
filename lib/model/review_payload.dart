@@ -13,6 +13,8 @@ class HouseModel{
     final windows = data["windows"];
     final floor = data["floor"];
 
+    return HouseModel(curtains, windows, floor);
+
 
 
   }
