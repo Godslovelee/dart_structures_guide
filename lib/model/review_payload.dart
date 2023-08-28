@@ -6,7 +6,7 @@ class HouseModel{
   final String windows;
   final String? floor;
 
-  HouseModel({required this.curtains, required this.windows, this.floor});
+  HouseModel({required this.curtains, required this.windows, required this.floor});
 
   factory HouseModel.fromJson(Map<String, dynamic> data){
     final curtains = data["curtains"];
