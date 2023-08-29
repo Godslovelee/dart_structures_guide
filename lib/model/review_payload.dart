@@ -1,5 +1,3 @@
-import 'dart:convert';
-
 
 class HouseModel{
   final String curtains;
