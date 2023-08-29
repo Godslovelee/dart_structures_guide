@@ -13,7 +13,7 @@ class HouseModel{
     final windows = data["windows"];
     final floor = data["floor"];
 
-    /// ADD CASE STATEMENTS
+    /// ADD CASE STATEMENTS...
 
     return HouseModel(curtains:curtains, windows:windows, floor:floor);
 
